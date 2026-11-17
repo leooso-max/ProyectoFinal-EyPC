@@ -2,7 +2,8 @@
 #define LECTURA_H
 
 #include <stdio.h>
+#include <stddef.h>
 
-FILE *abrir_archivo(int argc, char *argv);
+int abrir_archivo(int argc, char *argv[], FILE **archivo);
 
 #endif
